@@ -2,7 +2,7 @@ import { Card, Form, Button } from 'react-bootstrap';
 import { authService } from '../services/auth.service';
 import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-
+import GoogleAuth from '../components/GoogleAuth';
 const initialFormData = {
   username: '',
   password: ''
@@ -61,6 +61,9 @@ const Login = () => {
           </Form>
         </Card.Body>
       </Card>
+      <div className="text-center mt-3" style={{ maxWidth: '400px' }}>
+        <GoogleAuth />
+      </div>
       <div className="text-center mt-3" style={{ maxWidth: '400px' }}>
         <p className="text-muted">
           Don't have an account? <a href="/register">Register here</a>
