@@ -26,7 +26,6 @@ namespace server_solution.Services
             {
                 var searchRequest = new
                 {
-                    includedTypes = new[] { "atm" },
                     maxResultCount = 10,
                     locationRestriction = new
                     {
