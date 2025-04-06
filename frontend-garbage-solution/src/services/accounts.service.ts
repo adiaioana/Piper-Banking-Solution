@@ -34,7 +34,7 @@ export const accountsService = {
   },
   deleteAccount : async (accountId: string): Promise<void> => {
     return api.delete('/Accounts/accounts/' + accountId);
-  }
+  } 
 
 
 }

@@ -46,16 +46,11 @@ const Register = () => {
       }
       
       // Register the user
-      const response = await authService.register(dataToSubmit, password);
-      
-      // Store the tokens
-      localStorage.setItem('token', response.token);
-      localStorage.setItem('refreshToken', response.refreshToken);
-      localStorage.setItem('userId', response.userId);
-      localStorage.setItem('username', response.username);
+      const response = await authService.register(password,dataToSubmit);
+      const loginResponse = await authService.login({username: dataToSubmit.username, password: password});
       
       // Redirect to dashboard or home page
-      navigate('/dashboard');
+      navigate('/profile');
     } catch (err: any) {
       console.error('Registration error:', err);
       setError(err.response?.data || 'Registration failed. Please try again.');
