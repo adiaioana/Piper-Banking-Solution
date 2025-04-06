@@ -5,6 +5,7 @@ using Microsoft.OpenApi.Models;
 using server_solution.Application;
 using server_solution.Infrastructure;
 using server_solution.Properties.Configuration;
+using server_solution.Services;
 using System.Text;
 using Microsoft.AspNetCore.Rewrite;
 
@@ -19,6 +20,8 @@ builder.Services.AddControllers();
 builder.Services.AddScoped<IAccountRepository, AccountRepository>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddHttpClient();
+builder.Services.AddScoped<GoogleMapsService>();
 
 // Add CORS
 builder.Services.AddCors(options =>

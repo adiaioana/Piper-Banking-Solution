@@ -31,7 +31,7 @@ const Login = () => {
   }
 
   useEffect(() => {
-    if (localStorage.getItem('userId')) {
+    if (localStorage.getItem('token')) {
       navigate('/profile');
     }
   }, [navigate]);

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Container, Row, Col, Card, Form, Button, Alert } from 'react-bootstrap';
 import { accountsService } from '../services/accounts.service';
 import AccountsList from '../components/AccountsList';
-
+import NearbyATMs from '../components/NearbyATMs';
 interface AccountData {
   accountNumber: string;
   balance: number;
@@ -183,9 +183,13 @@ const Profile = () => {
             </Card.Body>
           </Card>
         </Col>
-        
         <Col md={6}>
-          <AccountsList accounts={accounts} />
+        <div>
+            <AccountsList accounts={accounts} />
+        </div>
+        <div className='mt-4'>
+          <NearbyATMs />
+        </div>
         </Col>
       </Row>
     </Container>

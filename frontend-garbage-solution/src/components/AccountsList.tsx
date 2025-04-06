@@ -55,7 +55,6 @@ const AccountsList: React.FC<AccountsListProps> = ({ accounts, onAddAccount }) =
         <div 
           className="accounts-container" 
           style={{ 
-            maxHeight: '200px', // Height for approximately 4 accounts
             overflowY: 'auto',
             scrollbarWidth: 'thin',
             scrollbarColor: '#6c757d #f8f9fa'
