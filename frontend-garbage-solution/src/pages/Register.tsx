@@ -1,6 +1,7 @@
 import { Card, Form, Button, Row, Col } from 'react-bootstrap';
 import { useState } from 'react';
-import { authService, RegisterData } from '../services/auth.service';
+import { authService} from '../services/auth.service';
+import {RegisterData} from '../services/auth.service';
 import { useNavigate } from 'react-router-dom';
 
 const Register = () => {
@@ -17,9 +18,9 @@ const Register = () => {
   const [error, setError] = useState<string | null>(null);
   const [isLoading, setIsLoading] = useState(false);
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
+  const handleChange = (e:any ) => {
     const { name, value } = e.target;
-    setFormData(prev => ({
+    setFormData((prev:RegisterData) => ({
       ...prev,
       [name]: value
     }));
@@ -29,7 +30,7 @@ const Register = () => {
     setPassword(e.target.value);
   };
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = async (e: any) => {
     e.preventDefault();
     setError(null);
     setIsLoading(true);
@@ -46,8 +47,8 @@ const Register = () => {
       }
       
       // Register the user
-      const response = await authService.register(password,dataToSubmit);
-      const loginResponse = await authService.login({username: dataToSubmit.username, password: password});
+      await authService.register(password,dataToSubmit);
+      await authService.login({username: dataToSubmit.username, password: password});
       
       // Redirect to dashboard or home page
       navigate('/profile');

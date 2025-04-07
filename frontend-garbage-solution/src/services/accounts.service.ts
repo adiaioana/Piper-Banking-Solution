@@ -1,14 +1,6 @@
 import { api } from './api';
+import { RegisterData } from './auth.service';
 
-
-interface RegisterData{
-    username: '',
-    email: '',
-    governmentIdType: '',
-    governmentIdNumber: '',
-    governmentIdIssuingCountry: '',
-    governmentIdExpirationDate: ''
-  }
 interface AccountData {
   accountNumber: string;
   balance: number;
@@ -16,7 +8,7 @@ interface AccountData {
 }
 
 export const accountsService = {
-  me : async (): Promise<void> => {
+  me : async (): Promise<RegisterData> => {
     return api.get('/Accounts/users/' + localStorage.getItem('userId'), true);
   },
   update : async (data: RegisterData): Promise<void> => {
@@ -26,7 +18,7 @@ export const accountsService = {
   createAccount : async (data: AccountData): Promise<void> => {
     return api.post('/Accounts/users/' + localStorage.getItem('userId') + '/accounts', data);
   },
-  getAccounts : async (): Promise<void> => {
+  getAccounts : async () => {
     return api.get('/Accounts/users/' + localStorage.getItem('userId') + '/accounts');
   },
   getAccount : async (accountId: string): Promise<void> => {
@@ -35,8 +27,6 @@ export const accountsService = {
   deleteAccount : async (accountId: string): Promise<void> => {
     return api.delete('/Accounts/accounts/' + accountId);
   } 
-
-
 }
 
 

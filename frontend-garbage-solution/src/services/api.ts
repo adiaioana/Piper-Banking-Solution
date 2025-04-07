@@ -1,5 +1,5 @@
 // Base API URL - change this to your actual API endpoint
-const API_BASE_URL = 'http://localhost:5119/api';
+const API_BASE_URL = 'https://server-solution-874865365867.us-central1.run.app/api';
 
 // Common headers
 const getHeaders = (includeAuth = true) => {
@@ -35,7 +35,7 @@ export const api = {
     return handleResponse<T>(response);
   },
 
-  post: async <T>(endpoint: string, data: Record<string, unknown>, includeAuth = true): Promise<T> => {
+  post: async <T>(endpoint: string, data :any = null, includeAuth = true): Promise<T> => {
     const response = await fetch(`${API_BASE_URL}${endpoint}`, {
       method: 'POST',
       headers: getHeaders(includeAuth),
@@ -44,7 +44,7 @@ export const api = {
     return handleResponse<T>(response);
   },
 
-  put: async <T>(endpoint: string, data: Record<string, unknown>, includeAuth = true): Promise<T> => {
+  put: async <T>(endpoint: string, data: any = null, includeAuth = true): Promise<T> => {
     const response = await fetch(`${API_BASE_URL}${endpoint}`, {
       method: 'PUT',
       headers: getHeaders(includeAuth),

@@ -1,16 +1,20 @@
 import React, { useState, useEffect } from 'react';
 import { Container, Row, Col, Card, Form, Button, Alert } from 'react-bootstrap';
 import { accountsService } from '../services/accounts.service';
+import { RegisterData } from '../services/auth.service';
 import AccountsList from '../components/AccountsList';
 import NearbyATMs from '../components/NearbyATMs';
+import ReceiptAnalyzer from '../components/ReceiptAnalyzer';
+
 interface AccountData {
+  accountId : string
   accountNumber: string;
   balance: number;
   accountType: string;
 }
 
 const Profile = () => {
-  const [userData, setUserData] = useState({
+  const [userData, setUserData] = useState<RegisterData>({
     username: '',
     email: '',
     governmentIdType: '',
@@ -30,15 +34,19 @@ const Profile = () => {
         setIsLoading(true);
         const data = await accountsService.me();
         setUserData(data);
-      } catch (err: any) {
-        setError(err.message || 'Failed to load user data');
+      } catch (err: Error | unknown) {
+        setError(err instanceof Error ? err.message : 'Failed to load user data');
       } finally {
         setIsLoading(false);
       }
     };
     const fetchAccounts = async () => {
-      const data = await accountsService.getAccounts();
-      setAccounts(data);
+      try {
+        const data = await accountsService.getAccounts();
+        setAccounts(data as AccountData[]);
+      } catch (err: Error | unknown) {
+        console.error('Failed to fetch accounts:', err);
+      }
     };
 
     fetchUserData();
@@ -62,8 +70,8 @@ const Profile = () => {
       await accountsService.update(userData);
       setSuccess('Profile updated successfully');
       setIsEditing(false);
-    } catch (err: any) {
-      setError(err.message || 'Failed to update profile');
+    } catch (err: Error | unknown) {
+      setError(err instanceof Error ? err.message : 'Failed to update profile');
     }
   };
 
@@ -191,6 +199,9 @@ const Profile = () => {
           <NearbyATMs />
         </div>
         </Col>
+      </Row>
+      <Row>
+        <ReceiptAnalyzer />
       </Row>
     </Container>
   );

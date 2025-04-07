@@ -1,0 +1,358 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\FII\\CC - final HW3\\backend-misery-solution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6150FBC1-A675-4B08-81E9-72E7F0C17981}|server-solution\\server-solution.csproj|d:\\fii\\cc - final hw3\\backend-misery-solution\\server-solution\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6150FBC1-A675-4B08-81E9-72E7F0C17981}|server-solution\\server-solution.csproj|solutionrelative:server-solution\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6150FBC1-A675-4B08-81E9-72E7F0C17981}|server-solution\\server-solution.csproj|d:\\fii\\cc - final hw3\\backend-misery-solution\\server-solution\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6150FBC1-A675-4B08-81E9-72E7F0C17981}|server-solution\\server-solution.csproj|solutionrelative:server-solution\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6150FBC1-A675-4B08-81E9-72E7F0C17981}|server-solution\\server-solution.csproj|d:\\fii\\cc - final hw3\\backend-misery-solution\\server-solution\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6150FBC1-A675-4B08-81E9-72E7F0C17981}|server-solution\\server-solution.csproj|solutionrelative:server-solution\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6150FBC1-A675-4B08-81E9-72E7F0C17981}|server-solution\\server-solution.csproj|d:\\fii\\cc - final hw3\\backend-misery-solution\\server-solution\\server-solution.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{6150FBC1-A675-4B08-81E9-72E7F0C17981}|server-solution\\server-solution.csproj|solutionrelative:server-solution\\server-solution.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\FII\\CC - final HW3\\backend-misery-solution\\Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6150FBC1-A675-4B08-81E9-72E7F0C17981}|server-solution\\server-solution.csproj|d:\\fii\\cc - final hw3\\backend-misery-solution\\server-solution\\server-solution.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6150FBC1-A675-4B08-81E9-72E7F0C17981}|server-solution\\server-solution.csproj|solutionrelative:server-solution\\server-solution.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6150FBC1-A675-4B08-81E9-72E7F0C17981}|server-solution\\server-solution.csproj|d:\\fii\\cc - final hw3\\backend-misery-solution\\server-solution\\controllers\\transactionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6150FBC1-A675-4B08-81E9-72E7F0C17981}|server-solution\\server-solution.csproj|solutionrelative:server-solution\\controllers\\transactionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6150FBC1-A675-4B08-81E9-72E7F0C17981}|server-solution\\server-solution.csproj|d:\\fii\\cc - final hw3\\backend-misery-solution\\server-solution\\infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6150FBC1-A675-4B08-81E9-72E7F0C17981}|server-solution\\server-solution.csproj|solutionrelative:server-solution\\infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6150FBC1-A675-4B08-81E9-72E7F0C17981}|server-solution\\server-solution.csproj|d:\\fii\\cc - final hw3\\backend-misery-solution\\server-solution\\application\\repositories\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6150FBC1-A675-4B08-81E9-72E7F0C17981}|server-solution\\server-solution.csproj|solutionrelative:server-solution\\application\\repositories\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6150FBC1-A675-4B08-81E9-72E7F0C17981}|server-solution\\server-solution.csproj|d:\\fii\\cc - final hw3\\backend-misery-solution\\server-solution\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6150FBC1-A675-4B08-81E9-72E7F0C17981}|server-solution\\server-solution.csproj|solutionrelative:server-solution\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6150FBC1-A675-4B08-81E9-72E7F0C17981}|server-solution\\server-solution.csproj|d:\\fii\\cc - final hw3\\backend-misery-solution\\server-solution\\application\\irepositories\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6150FBC1-A675-4B08-81E9-72E7F0C17981}|server-solution\\server-solution.csproj|solutionrelative:server-solution\\application\\irepositories\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6150FBC1-A675-4B08-81E9-72E7F0C17981}|server-solution\\server-solution.csproj|d:\\fii\\cc - final hw3\\backend-misery-solution\\server-solution\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6150FBC1-A675-4B08-81E9-72E7F0C17981}|server-solution\\server-solution.csproj|solutionrelative:server-solution\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6150FBC1-A675-4B08-81E9-72E7F0C17981}|server-solution\\server-solution.csproj|d:\\fii\\cc - final hw3\\backend-misery-solution\\server-solution\\domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6150FBC1-A675-4B08-81E9-72E7F0C17981}|server-solution\\server-solution.csproj|solutionrelative:server-solution\\domain\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6150FBC1-A675-4B08-81E9-72E7F0C17981}|server-solution\\server-solution.csproj|d:\\fii\\cc - final hw3\\backend-misery-solution\\server-solution\\application\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6150FBC1-A675-4B08-81E9-72E7F0C17981}|server-solution\\server-solution.csproj|solutionrelative:server-solution\\application\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6150FBC1-A675-4B08-81E9-72E7F0C17981}|server-solution\\server-solution.csproj|d:\\fii\\cc - final hw3\\backend-misery-solution\\server-solution\\application\\irepositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6150FBC1-A675-4B08-81E9-72E7F0C17981}|server-solution\\server-solution.csproj|solutionrelative:server-solution\\application\\irepositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6150FBC1-A675-4B08-81E9-72E7F0C17981}|server-solution\\server-solution.csproj|d:\\fii\\cc - final hw3\\backend-misery-solution\\server-solution\\domain\\tokenrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6150FBC1-A675-4B08-81E9-72E7F0C17981}|server-solution\\server-solution.csproj|solutionrelative:server-solution\\domain\\tokenrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6150FBC1-A675-4B08-81E9-72E7F0C17981}|server-solution\\server-solution.csproj|d:\\fii\\cc - final hw3\\backend-misery-solution\\server-solution\\infrastructure\\dtos\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6150FBC1-A675-4B08-81E9-72E7F0C17981}|server-solution\\server-solution.csproj|solutionrelative:server-solution\\infrastructure\\dtos\\userregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6150FBC1-A675-4B08-81E9-72E7F0C17981}|server-solution\\server-solution.csproj|d:\\fii\\cc - final hw3\\backend-misery-solution\\server-solution\\properties\\configuration\\swaggeroptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6150FBC1-A675-4B08-81E9-72E7F0C17981}|server-solution\\server-solution.csproj|solutionrelative:server-solution\\properties\\configuration\\swaggeroptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6150FBC1-A675-4B08-81E9-72E7F0C17981}|server-solution\\server-solution.csproj|d:\\fii\\cc - final hw3\\backend-misery-solution\\server-solution\\domain\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6150FBC1-A675-4B08-81E9-72E7F0C17981}|server-solution\\server-solution.csproj|solutionrelative:server-solution\\domain\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 118,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\FII\\CC - final HW3\\backend-misery-solution\\Dockerfile",
+              "RelativeDocumentMoniker": "Dockerfile",
+              "ToolTip": "D:\\FII\\CC - final HW3\\backend-misery-solution\\Dockerfile",
+              "RelativeToolTip": "Dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-06T20:45:50.514Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\FII\\CC - final HW3\\backend-misery-solution\\server-solution\\Program.cs",
+              "RelativeDocumentMoniker": "server-solution\\Program.cs",
+              "ToolTip": "D:\\FII\\CC - final HW3\\backend-misery-solution\\server-solution\\Program.cs",
+              "RelativeToolTip": "server-solution\\Program.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAuwIEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T14:57:43.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\FII\\CC - final HW3\\backend-misery-solution\\server-solution\\appsettings.json",
+              "RelativeDocumentMoniker": "server-solution\\appsettings.json",
+              "ToolTip": "D:\\FII\\CC - final HW3\\backend-misery-solution\\server-solution\\appsettings.json",
+              "RelativeToolTip": "server-solution\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-05T11:19:26.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\FII\\CC - final HW3\\backend-misery-solution\\server-solution\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "server-solution\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\FII\\CC - final HW3\\backend-misery-solution\\server-solution\\Properties\\launchSettings.json",
+              "RelativeToolTip": "server-solution\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-06T21:35:31.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TransactionsController.cs",
+              "DocumentMoniker": "D:\\FII\\CC - final HW3\\backend-misery-solution\\server-solution\\Controllers\\TransactionsController.cs",
+              "RelativeDocumentMoniker": "server-solution\\Controllers\\TransactionsController.cs",
+              "ToolTip": "D:\\FII\\CC - final HW3\\backend-misery-solution\\server-solution\\Controllers\\TransactionsController.cs",
+              "RelativeToolTip": "server-solution\\Controllers\\TransactionsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T20:37:07.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "server-solution",
+              "DocumentMoniker": "D:\\FII\\CC - final HW3\\backend-misery-solution\\server-solution\\server-solution.csproj",
+              "RelativeDocumentMoniker": "server-solution\\server-solution.csproj",
+              "ToolTip": "D:\\FII\\CC - final HW3\\backend-misery-solution\\server-solution\\server-solution.csproj",
+              "RelativeToolTip": "server-solution\\server-solution.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-06T21:35:26.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "server-solution",
+              "DocumentMoniker": "D:\\FII\\CC - final HW3\\backend-misery-solution\\server-solution\\server-solution.csproj",
+              "RelativeDocumentMoniker": "server-solution\\server-solution.csproj",
+              "ToolTip": "D:\\FII\\CC - final HW3\\backend-misery-solution\\server-solution\\server-solution.csproj",
+              "RelativeToolTip": "server-solution\\server-solution.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-06T20:40:26.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IAccountRepository.cs",
+              "DocumentMoniker": "D:\\FII\\CC - final HW3\\backend-misery-solution\\server-solution\\Application\\IRepositories\\IAccountRepository.cs",
+              "RelativeDocumentMoniker": "server-solution\\Application\\IRepositories\\IAccountRepository.cs",
+              "ToolTip": "D:\\FII\\CC - final HW3\\backend-misery-solution\\server-solution\\Application\\IRepositories\\IAccountRepository.cs",
+              "RelativeToolTip": "server-solution\\Application\\IRepositories\\IAccountRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T15:13:34.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AccountRepository.cs",
+              "DocumentMoniker": "D:\\FII\\CC - final HW3\\backend-misery-solution\\server-solution\\Application\\Repositories\\AccountRepository.cs",
+              "RelativeDocumentMoniker": "server-solution\\Application\\Repositories\\AccountRepository.cs",
+              "ToolTip": "D:\\FII\\CC - final HW3\\backend-misery-solution\\server-solution\\Application\\Repositories\\AccountRepository.cs",
+              "RelativeToolTip": "server-solution\\Application\\Repositories\\AccountRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T10:55:09.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "D:\\FII\\CC - final HW3\\backend-misery-solution\\server-solution\\Infrastructure\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "server-solution\\Infrastructure\\AppDbContext.cs",
+              "ToolTip": "D:\\FII\\CC - final HW3\\backend-misery-solution\\server-solution\\Infrastructure\\AppDbContext.cs",
+              "RelativeToolTip": "server-solution\\Infrastructure\\AppDbContext.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAAAFYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T14:59:38.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AccountsController.cs",
+              "DocumentMoniker": "D:\\FII\\CC - final HW3\\backend-misery-solution\\server-solution\\Controllers\\AccountsController.cs",
+              "RelativeDocumentMoniker": "server-solution\\Controllers\\AccountsController.cs",
+              "ToolTip": "D:\\FII\\CC - final HW3\\backend-misery-solution\\server-solution\\Controllers\\AccountsController.cs",
+              "RelativeToolTip": "server-solution\\Controllers\\AccountsController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAA8wCEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T14:45:42.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\FII\\CC - final HW3\\backend-misery-solution\\server-solution\\Domain\\User.cs",
+              "RelativeDocumentMoniker": "server-solution\\Domain\\User.cs",
+              "ToolTip": "D:\\FII\\CC - final HW3\\backend-misery-solution\\server-solution\\Domain\\User.cs",
+              "RelativeToolTip": "server-solution\\Domain\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T14:53:17.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\FII\\CC - final HW3\\backend-misery-solution\\server-solution\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "server-solution\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\FII\\CC - final HW3\\backend-misery-solution\\server-solution\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "server-solution\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAywKQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T14:45:24.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\FII\\CC - final HW3\\backend-misery-solution\\server-solution\\Application\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "server-solution\\Application\\Repositories\\UserRepository.cs",
+              "ToolTip": "D:\\FII\\CC - final HW3\\backend-misery-solution\\server-solution\\Application\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "server-solution\\Application\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T10:59:26.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\FII\\CC - final HW3\\backend-misery-solution\\server-solution\\Application\\IRepositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "server-solution\\Application\\IRepositories\\IUserRepository.cs",
+              "ToolTip": "D:\\FII\\CC - final HW3\\backend-misery-solution\\server-solution\\Application\\IRepositories\\IUserRepository.cs",
+              "RelativeToolTip": "server-solution\\Application\\IRepositories\\IUserRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T11:27:37.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TokenRequest.cs",
+              "DocumentMoniker": "D:\\FII\\CC - final HW3\\backend-misery-solution\\server-solution\\Domain\\TokenRequest.cs",
+              "RelativeDocumentMoniker": "server-solution\\Domain\\TokenRequest.cs",
+              "ToolTip": "D:\\FII\\CC - final HW3\\backend-misery-solution\\server-solution\\Domain\\TokenRequest.cs",
+              "RelativeToolTip": "server-solution\\Domain\\TokenRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T12:28:56.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserRegisterDTO.cs",
+              "DocumentMoniker": "D:\\FII\\CC - final HW3\\backend-misery-solution\\server-solution\\Infrastructure\\DTOs\\UserRegisterDTO.cs",
+              "RelativeDocumentMoniker": "server-solution\\Infrastructure\\DTOs\\UserRegisterDTO.cs",
+              "ToolTip": "D:\\FII\\CC - final HW3\\backend-misery-solution\\server-solution\\Infrastructure\\DTOs\\UserRegisterDTO.cs",
+              "RelativeToolTip": "server-solution\\Infrastructure\\DTOs\\UserRegisterDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T10:54:06.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SwaggerOptions.cs",
+              "DocumentMoniker": "D:\\FII\\CC - final HW3\\backend-misery-solution\\server-solution\\Properties\\Configuration\\SwaggerOptions.cs",
+              "RelativeDocumentMoniker": "server-solution\\Properties\\Configuration\\SwaggerOptions.cs",
+              "ToolTip": "D:\\FII\\CC - final HW3\\backend-misery-solution\\server-solution\\Properties\\Configuration\\SwaggerOptions.cs",
+              "RelativeToolTip": "server-solution\\Properties\\Configuration\\SwaggerOptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-05T11:22:56.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Account.cs",
+              "DocumentMoniker": "D:\\FII\\CC - final HW3\\backend-misery-solution\\server-solution\\Domain\\Account.cs",
+              "RelativeDocumentMoniker": "server-solution\\Domain\\Account.cs",
+              "ToolTip": "D:\\FII\\CC - final HW3\\backend-misery-solution\\server-solution\\Domain\\Account.cs",
+              "RelativeToolTip": "server-solution\\Domain\\Account.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T15:12:50.428Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

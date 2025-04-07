@@ -3,6 +3,7 @@ import { Modal, Form, Button } from 'react-bootstrap';
 import { accountsService } from '../services/accounts.service';
 
 interface AccountData {
+  accountId : string;
   accountNumber: string;
   balance: number;
   accountType: string;
@@ -16,6 +17,7 @@ interface AccountModalProps {
 
 const AccountModal: React.FC<AccountModalProps> = ({ show, onHide, onSubmit }) => {
   const [newAccount, setNewAccount] = useState<AccountData>({
+    accountId: '',
     accountNumber: '',
     balance: 0,
     accountType: 'RON'
@@ -62,6 +64,7 @@ const AccountModal: React.FC<AccountModalProps> = ({ show, onHide, onSubmit }) =
 
   const resetForm = () => {
     setNewAccount({
+      accountId: '',
       accountNumber: '',
       balance: 0,
       accountType: 'RON'

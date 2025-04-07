@@ -5,16 +5,16 @@ interface LoginCredentials {
   password: string;
 }
 
-interface RegisterData{
-  username: '',
-  email: '',
-  governmentIdType: '',
-  governmentIdNumber: '',
-  governmentIdIssuingCountry: '',
-  governmentIdExpirationDate: ''
+export interface RegisterData {
+  username: string;
+  email: string;
+  governmentIdType: string;
+  governmentIdNumber: string;
+  governmentIdIssuingCountry: string;
+  governmentIdExpirationDate: string;
 }
 
-interface AuthResponse {
+export interface AuthResponse {
   token: string;
   refreshToken: string;
   user: {
