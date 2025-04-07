@@ -32,6 +32,14 @@ builder.Services.AddCors(options =>
                .AllowAnyHeader()
                .AllowAnyMethod()
                .AllowCredentials();
+        builder.WithOrigins("https://piper-bank-simulator.web.app/")
+                .AllowAnyHeader()
+                .AllowAnyMethod()
+                .AllowCredentials();
+        builder.WithOrigins("https://piper-bank-simulator.firebaseapp.com/")    
+        .AllowAnyHeader()
+        .AllowAnyMethod()
+        .AllowCredentials();
     });
 });
 
